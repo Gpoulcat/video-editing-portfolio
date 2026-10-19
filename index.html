@@ -37,8 +37,8 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:33px 0;color:var
 // Do not upload employer-owned videos publicly without permission.
 const videos={welcome:"",
               info:"",
-              inspirational:"https://www.youtube.com/watch?v=s3ftfo-RlQw",
-              long:"https://www.youtube.com/watch?v=1FXrfb7noH8",
+              inspirational:"s3ftfo-RlQw",
+              long:"1FXrfb7noH8",
               tips:""};
 for(const el of document.querySelectorAll("[data-video]")){
  const url=videos[el.dataset.video];if(!url)continue;
